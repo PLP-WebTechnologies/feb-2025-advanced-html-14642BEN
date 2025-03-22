@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index Page</title>
+    <style>
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body style="background-color: #add8e6;">>
+  <h1>Ordered List with Roman Numerals</h1>
+    <ol type="I">
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+        <li>Item Four</li>
+        <li>Item Five</li>
+    </ol>
+
+    <h1>External Image</h1>
+    <img src="https://images.pexels.com/photos/693859/pexels-photo-693859.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Coding image" width="800">
+
+    <h1>Contacts Table</h1>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Ben Detective</td>
+            <td>210-90101</td>
+            <td>0719836479</td>
+            <td>kilonzoben007@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Ann Musili</td>
+            <td>1996-90100</td>
+            <td>0716541415</td>
+            <td>annbel20@gmail.com</td>
+        </tr>
+        <tr>
+            <td>King fisher</td>
+            <td>78-00200</td>
+            <td>+254719789070</td>
+            <td>kalewafisher@gmail.com.com</td>
+        </tr>
+        <tr>
+            <td>Faith Muikioo</td>
+            <td>321-00100</td>
+            <td>+257724567890</td>
+            <td>faithm010@gmal.com</td>
+        </tr>
+        <tr>
+            <td>Joshua Mkuu</td>
+            <td>70-10677</td>
+            <td>+254758435231</td>
+            <td>joshuak@gmail.com</td>
+        </tr>
+    </table>
+
+    <!-- Registration Form -->
+    <h1>Registration Form</h1>
+    <form>
+        <!-- Name Field -->
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+        
+        <!-- Email Field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+        
+        <!-- Password Field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required minlength="6"><br><br>
+        
+        <!-- Date Field -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+        
+        <!-- Dropdown Menu -->
+        <label for="county">County:</label>
+        <select id="county" name="county" required>
+            <option value="">Select your county</option>
+            <option value="MACHAKOS">Machakos</option>
+            <option value="NAIROBI">Nairobi</option>
+            <option value="MAKUENI">Makueni</option>
+            <option value="KIRINYAGA">Kirinyaga</option>
+        </select><br><br>
+        
+        <!-- Radio Buttons -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other" required>
+        <label for="other">Other</label><br><br>
+        
+        <!-- Checkboxes -->
+        <label>Interests:</label>
+        <input type="checkbox" id="sports" name="interests" value="sports">
+        <label for="sports">Soccer</label>
+        <input type="checkbox" id="music" name="interests" value="music">
+        <label for="music">Music</label>
+        <input type="checkbox" id="reading" name="interests" value="reading">
+        <label for="reading">Money</label><br><br>
+        
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+    </form>
+</>
+</html>
+
